@@ -940,7 +940,7 @@ function kube-up {
 
   upload-server-tars
 
-  ensure-iam-profiles
+  # ensure-iam-profiles
 
   load-or-gen-kube-basicauth
   load-or-gen-kube-bearertoken
